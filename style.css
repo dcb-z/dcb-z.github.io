@@ -22,3 +22,14 @@ h2, h3 {
 a {
   color: #a44a5d; /* soft rose */
 }
+div {
+  width: 220px;
+  height: 120px;
+  background-color: #f8e6ea; /* soft blush */
+  border: 2px solid #3b1f2b; /* deep plum/brown */
+  color: #7a3e48; /* muted rose text */
+  padding: 20px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: Georgia, serif;
+}
