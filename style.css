@@ -56,15 +56,7 @@ nav a:hover {
 }
 
 /* ===== VIDEO SECTION  ===== */
-.video-container {
-  background-color: transparent;
-  width: 80%;
-  max-width: 850px;
-  margin: 30px auto 10px auto;
-  padding: 10px;
-}
-
-video {
+.video {
   width: 85% !important;
   max-width: 720px !important;
   height: auto !important;
