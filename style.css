@@ -1,83 +1,53 @@
-
 body {
-    font-family: 'Georgia', serif;
-    margin: 0;
-    background-color: #f7f5f3;
-    color: #333;
-    text-align: center;
+  background-color: #f1f0e2;
+  color: #8c807e;
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+  text-align: center;
+  margin: 0;
 }
 
-header {
-    padding: 20px;
+h1, h2, h3 {
+  color: #8b645a;
 }
 
-header h1 {
-    font-weight: normal;
-    letter-spacing: 2px;
+p, .sub {
+  color: #8c807e;
 }
 
 nav a {
-    margin: 10px;
-    text-decoration: none;
-    color: #555;
+  color: #8b645a;
+  text-decoration: none;
+  margin: 10px;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
-.video-container {
-  text-align: center;
-  margin: 40px auto;
+nav a:hover {
+  color: #c39d88;
 }
 
-.portfolio-video {
-  width: 50%;
-  max-width: 450px;
-  height: auto;
-  border-radius: 10px;
-}
 .video-container {
-  margin-bottom: 20px;
+  background-color: #d1c7bd;
+  width: 70%;
+  max-width: 850px;
+  margin: 30px auto 15px auto;
+  padding: 25px;
+  border-radius: 18px;
+}
+
+video {
+  width: 80% !important;
+  max-width: 700px !important;
+  height: auto !important;
+  display: block;
+  margin: 15px auto;
+  border-radius: 12px;
 }
 
 .intro {
   margin-top: 10px;
-}
-
-.intro {
-    padding: 40px 20px;
-}
-
-.intro .sub {
-    font-style: italic;
-    color: #888;
-}
-
-.gallery {
-    display: flex;
-    gap: 10px;
-    padding: 20px;
-}
-
-.gallery img {
-    width: 50%;
-    border-radius: 5px;
-}
-
-.cta {
-    margin: 40px;
-}
-
-.cta a {
-    border: 1px solid #aaa;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #333;
+  padding-top: 0;
 }
 
 footer {
-    padding: 20px;
-    font-size: 12px;
-    color: #888;
+  color: #8b645a;
+  margin-top: 50px;
 }
