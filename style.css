@@ -1,34 +1,64 @@
+/* ===== BASE STYLING ===== */
 body {
-  background-color: #c39d88;
+  background-color: #f1caca;
   color: #8c807e;
-  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+  font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
+  font-size: 18px;
 }
 
+/* ===== HEADINGS ===== */
 h1, h2, h3 {
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
   color: #8b645a;
+  font-weight: normal;
 }
 
-p, .sub {
-  color: #8c807e;
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* ===== TEXT ===== */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.sub {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* ===== NAVIGATION ===== */
 nav a {
   color: #8b645a;
   text-decoration: none;
   margin: 10px;
+  font-size: 18px;
 }
 
 nav a:hover {
   color: #c39d88;
 }
 
+/* ===== VIDEO SECTION ===== */
 .video-container {
   background-color: #d1c7bd;
   width: 70%;
   max-width: 850px;
-  margin: 30px auto 15px auto;
+  margin: 30px auto 10px auto;
   padding: 25px;
   border-radius: 18px;
 }
@@ -38,15 +68,38 @@ video {
   max-width: 700px !important;
   height: auto !important;
   display: block;
-  margin: 15px auto;
+  margin: 10px auto;
   border-radius: 12px;
 }
 
+/* ===== INTRO SECTION ===== */
 .intro {
-  margin-top: 10px;
+  margin-top: 5px;
   padding-top: 0;
 }
 
+/* ===== IMAGES ===== */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* ===== ABOUT PAGE ===== */
+.about {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.headshot {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+/* ===== FOOTER ===== */
 footer {
   color: #8b645a;
   margin-top: 50px;
