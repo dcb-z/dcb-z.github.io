@@ -100,6 +100,16 @@ img {
   box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
 }
 
+.email-link {
+  color: #7a6a5f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.email-link:hover {
+  color: #b89b8c;
+}
+
 /* ===== FOOTER ===== */
 footer {
   color: #8b645a;
